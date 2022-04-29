@@ -30,8 +30,6 @@
 // app.use(passport.initialize());
 // app.use(passport.session());
 // require("./passports/passportConfig")(passport);
-
-
 // app.use('/users', userRouter);
 require("dotenv").config();
 const mongoose = require('mongoose');
