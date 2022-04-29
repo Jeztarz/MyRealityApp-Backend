@@ -26,12 +26,11 @@ if (true) {
     });
 }
 
-
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(
   cors({
-    origin: "https://myreality-project.vercel.app", 
+    origin: "https://final-project-the-reality.vercel.app", 
     // origin: "http://localhost:4000", 
     credentials: true,
   })
