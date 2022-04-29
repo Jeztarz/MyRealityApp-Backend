@@ -46,4 +46,5 @@ const boot = async () => {
         console.log('Server is running');
     }); 
 };
+
 boot();
